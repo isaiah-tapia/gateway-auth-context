@@ -34,10 +34,10 @@ pip install -r requirements.txt
 ## Running
 
 ```bash
-# Terminal 1 — start the server
+# Terminal 1: start the server (remember to be in the venv!)
 uvicorn websocket.main:app --port 8000
 
-# Terminal 2 — run the demo
+# Terminal 2: run the demo
 python websocket/demo.py
 ```
 
